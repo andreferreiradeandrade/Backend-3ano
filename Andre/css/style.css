@@ -2,14 +2,24 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 22%, rgba(69,4,195,1) 57%, rgba(0,212,255,1) 100%);
 }
 
 .cont{
     text-align: left;
+    margin-left: 50px;
 }
 
 form{
     font-family: Arial;
+    background-color: white;
+    width: 500px;
+    height: 400px;
+    border: 100px;
+    border-color: black;
+    border-radius: 30px;
+    margin-top: 100px;
 }
 
 .titulo{
@@ -32,4 +42,5 @@ form{
     background-color: aliceblue;
     border-color: black;
     width: 90px;
+    margin-left: 50px;
 }
