@@ -9,8 +9,10 @@
         <?php
         $nome = $_GET ["nome"];
         $idade = $_GET ["idade"];
+        $altura = $_GET ["altura"];
+        $peso = $_GET ["peso"];
 
-        echo "<p>$nome $idade</p>";
+        echo "<p>Seu nome é $nome tem $idade anos, $altura de altura e pesa $peso</p>";
         ?>
     </body>
 </html>
