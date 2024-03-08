@@ -1,0 +1,14 @@
+legend{
+    color: black;
+    font-family: Arial;
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+p{
+    font-family: Arial;
+}
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+}
