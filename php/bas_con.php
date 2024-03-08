@@ -18,7 +18,7 @@
 
 ?>
 <br>
-    <a href="http://localhost/http/Attfuncoes/index.html">voltar</a>
+    <a href="http://localhost/Andre/funcoes/index.html">voltar</a>
 
 </body>
 </html>
