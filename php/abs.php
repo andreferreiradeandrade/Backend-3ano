@@ -14,9 +14,10 @@
   
     $abs = $_GET["abs"];
     echo "<p> o numero real de $abs é: " . abs($abs);
-  
 
 
     ?>
+    <br>
+    <a href="http://localhost/Andre/funcoes/index.html">voltar</a>
 </body>
 </html>
