@@ -10,9 +10,6 @@
 
 <?php
   
-// PHP code to illustrate the working 
-// of intdiv() Functions 
-  
 $dividend = $_GET["did"];;
 $divisor = $_GET["div"];; 
   
@@ -21,7 +18,7 @@ echo intdiv($dividend, $divisor);
 ?>
 
 <br>
-    <a href="http://localhost/http/Attfuncoes/index.html">voltar</a>
+<a href="http://localhost/Andre/funcoes/index.html">voltar</a>
 
 </body>
 </html>
