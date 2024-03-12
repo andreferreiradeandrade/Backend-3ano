@@ -5,21 +5,24 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style/fun.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     </head>
     <body>
         <div class="pcentral1">
             <form action="php/hi.php" method="get">
                 <fieldset>
-                    <legend><b>HIPOTENUSA</b></legend>
+                    <legend class="legend"><b>HIPOTENUSA</b></legend>
                     <p> O teorema de Pitágoras diz que o quadrado da hipotenusa é igual à soma dos quadrados dos catetos.
                         a2 = b2 + c2 onde: a é hipotenusa, b cateto1 e c cateto2</p>
                     <label>informe cateto1 </label> <br>
-                    <input type="number" name="cat1" id="idadejs">
+                    <input type="number" name="cat1" id="idadejs" class="textbox">
                     <br><br>
                     <label >informe cateto 2 </label> <br>
-                    <input type="number" name="cat2" id="idadejs">
+                    <input type="number" name="cat2" id="idadejs" class="textbox">
                     <br><br>
-                    <input type="submit" name="submit" id="submit">
+                    <input type="submit" name="submit" id="submit" class="bot">
                 </fieldset>
             </form>
         </div>
