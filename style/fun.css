@@ -1,14 +1,79 @@
-legend{
-    color: black;
-    font-family: Arial;
-    font-size: 60px;
-    margin-bottom: 30px;
+body{
+    background-color: #8C52FF;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
 }
 
+.legend{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 60px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+fieldset{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid white; /* Define a borda com 2 pixels de largura e cor branca */
+    box-shadow: none;
+    height: 400px;
+    margin-top: 180px;
+}
+
+
 p{
-    font-family: Arial;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    text-align: center;
+    margin-right: 300px;
+    margin-left: 300px;
+    font-size: 20px;
+    border: 50px;
+    margin-bottom: 60px;
 }
 
 label{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    text-align: center;
+   
 }
+
+.textbox{
+    border-radius: 300px;
+    border: none;
+    width: 300px;
+    align-self: center;
+    flex-grow: 0;
+    height: 30px;
+    font-family: Arial;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+}
+
+.bot{
+    background-color: #5CE1E6;
+    font-family: "Montserrat",sans-serif;
+    color: white;
+    font-weight: bold;
+    width: 170px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 30px;
+    border: none;
+    align-self: center;
+}
+
+.nu1{
+    margin-bottom: 5px;
+}
+
