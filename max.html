@@ -4,18 +4,31 @@
         <title>baseconvert</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style/fun.css">
+        <link rel="stylesheet" href="style/funmax.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     </head>
     <body>
         <div>
             <form action="php/max.php" method="get">
-                <fieldset>
-                    <legend><b>MAX</b></legend>
-                    <p>Max() retorna o parâmetro considerado o "maior" de acordo com as comparações padrões. Se vários valores de tipos diferentes forem considerados iguais (por exemplo, 0 e 'abc') então o primeiro fornecido à função será retornado. </p>
+                <fieldset class="fmax">
+                    <legend class="lmax"><b>MAX</b></legend>
+                    <p class="pmax">Max() retorna o parâmetro considerado o "maior" de acordo com as comparações padrões. Se vários valores de tipos diferentes forem considerados iguais (por exemplo, 0 e 'abc') então o primeiro fornecido à função será retornado. </p>
                     <label>Valores</label> <br>
-                    <input type="number" name="val" id="valjs">
+
+                    <input type="number" name="val" id="valjs" class="textboxmax">
                     <br><br>
-                    <input type="submit" name="submit" id="submit">
+                    <input type="number" name="val1" id="valjs" class="textboxmax">
+                    <br><br>
+                    <input type="number" name="val2" id="valjs" class="textboxmax">
+                    <br><br>
+                    <input type="number" name="val3" id="valjs" class="textboxmax">
+                    <br><br>
+                    <input type="number" name="val4" id="valjs" class="textboxmax">
+                    <br><br>
+
+                    <input type="submit" name="submit" id="submit" class="botmax">
                 </fieldset>
             </form>
         </div>
