@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href=reset.css rel="stylesheet" type="text/css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+
+  <style>
+    html {
+      height: 100%;
+      width: 100%;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      font-family: Varela Round;
+      background: rgb(7,52,95);
+      background: linear-gradient(180deg, rgba(7,52,95,1) 0%, rgba(4,33,59,1) 35%, rgba(1,4,7,1) 100%);
+    }
+
+    fieldset {
+      display: flex;
+      border: none;
+      padding: none;
+      margin: none;
+    }
+
+    main {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .head {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-bottom: 60px;
+      margin-top: 30px;
+      width: 600px;
+    }
+
+    .acima {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-bottom: 20px;
+      color: #FAF0CA;
+      font-family: Varela Round;
+      width: 600px;
+    }
+
+    .dicadiv{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+
+    .dicatxt{
+      margin-top: 4px;
+      margin-left: 10px;
+    }
+
+    .botdica{
+      background: none;
+      border: none;
+    }
+
+    .dataacima{
+      display: flex;
+      flex-direction: row;
+    }
+
+    .tentativas{
+      margin-left: 30px;
+    }
+
+    .tit {
+      font-family: Montserrat;
+      color: #FAF0CA;
+      font-size: 40px;
+    }
+
+    .botvoltar {
+      background: none;
+      border: none;
+    }
+
+    .voltar {
+      width: 60px;
+      height: 48;
+    }
+
+    .bothowtoplay {
+      background: none;
+      border: none;
+    }
+
+    .howtoplay {
+      width: 46px;
+      height: 42px;
+    }
+
+    .opcoes{
+      display: flex;
+      justify-content: center;
+      width: 600px;
+      height: 100px;
+      margin-bottom: 20px;  
+    }
+
+    .palavra{
+      width: 144px;
+      height: 95px;
+      border-radius: 9px;
+      border: none;
+      margin-right: 20px;
+      margin-top: 20px;
+      background-color: #D3D3D3;
+    }
+
+    .pain1{
+      margin-top: 50px;
+    }
+
+    .pain2{
+      margin-top: 50px;
+    }
+
+    .pain3{
+      margin-top: 50px;
+    }
+
+    .pain4{
+      margin-top: 50px;
+    }
+
+
+  </style>
+
+</head>
+
+<body>
+
+  <main>
+    <header class="head">
+      <a href="paginainicial.html"><button class="botvoltar"><img src="img/Voltar.png" class="voltar"></button></a>
+      <h1 class="tit">CONECTADO</h1>
+      <button class="bothowtoplay"><img src="img/ComoJogar.png" class="howtoplay"></button>
+    </header>
+
+    <div class="acima">
+      <div class="dataacima">
+      <p class="data">DD/MM/AAA</p>
+      <p class="tentativas">TENTATIVAS: 0</p>
+      </div>
+      <div class="dicadiv">
+      <button class="botdica"><img src="img/Dica.png" class="dicaic"></button>
+      <p class="dicatxt">Dica</p>
+      </div>
+    </div>
+
+
+
+      <div class="opcoes">
+        <div class="pain1">
+          <button class="palavra"></button>
+          <button class="palavra"></button>
+          <button class="palavra"></button>
+          <button class="palavra"></button>
+        </div>
+        <div class="pain2">
+          <button class="palavra"></button>
+          <button class="palavra"></button>
+          <button class="palavra"></button>
+          <button class="palavra"></button>
+        </div>
+        <div class="pain3">
+          <button class="palavra"></button>
+          <button class="palavra"></button>
+          <button class="palavra"></button>
+          <button class="palavra"></button>
+        </div>
+        <div class="pain4">
+          <button class="palavra"></button>
+          <button class="palavra"></button>
+          <button class="palavra"></button>
+          <button class="palavra"></button>
+        </div>
+      </div>
+
+  </main>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>

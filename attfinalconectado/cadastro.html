@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <head>
+
+        <meta charset="UTF-8">
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <meta name="viewport"content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="style.css">
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+
+
+
+        <title>Cadastro</title>
+
+      <style>
+
+        body {
+
+            padding: 0;
+
+            margin: 0;
+
+            background-color: #0D3B66;
+
+
+
+
+        }
+
+        #cadastro {
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: center;
+
+            height: 100vh;
+
+            font-family: Pixelify Sans;
+
+
+
+        }
+
+        .card {
+
+            background-color: rgba(19, 19, 19, 0.3);
+
+            padding: 40px;
+
+            border-radius: 24px;
+
+            width:280px;
+
+
+
+        }
+
+        .card-header {
+
+            padding-bottom: 50px;
+
+            opacity: 0.8;
+
+            color: #fff;
+
+        }
+
+        .card-header::after {
+
+            content: "";
+
+            width: 70px;
+
+            height: 1px;
+
+            background-color: #FAF0CA;
+
+            display: block;
+
+            margin-top: -17px;
+
+            margin-left: -5px;
+
+        }
+
+        .card-content label {
+
+            color: #fff;
+
+            font-size: 16px;
+
+            opacity: 0.8;
+
+           font-family: Pixelify Sans;
+        }
+
+        .card-content-user {
+
+            display: flex;
+
+            flex-direction: column;
+
+            padding:10px 0;
+
+        }
+
+        .card-content-user input {
+
+            margin-top: 10px;
+
+            padding:0 5px;
+
+            background-color: transparent;
+
+            border:none;
+
+            border-bottom: 1px solid #e1e1e1;
+
+            outline: none;
+
+            color: #fff;
+
+        }
+
+        .card-content-email {
+
+            display: flex;
+
+            flex-direction: column;
+
+            padding:10px 0;
+
+        }
+
+        .card-content-email input {
+
+            margin-top: 10px;
+
+            padding:0 5px;
+
+            background-color: transparent;
+
+            border:none;
+
+            border-bottom: 1px solid #e1e1e1;
+
+            outline: none;
+
+            color: #fff;
+
+        }
+          .card-content-senha {
+
+              display: flex;
+
+              flex-direction: column;
+
+              padding:10px 0;
+
+          }
+
+          .card-content-senha input {
+
+              margin-top: 10px;
+
+              padding:0 5px;
+
+              background-color: transparent;
+
+              border:none;
+
+              border-bottom: 1px solid #e1e1e1;
+
+              outline: none;
+
+              color: #fff;
+        }
+
+          .card-content-confirm {
+
+              display: flex;
+
+              flex-direction: column;
+
+              padding:10px 0;
+
+          }
+
+          .card-content-confirm input {
+
+              margin-top: 10px;
+
+              padding:0 5px;
+
+              background-color: transparent;
+
+              border:none;
+
+              border-bottom: 1px solid #e1e1e1;
+
+              outline: none;
+
+              color: #fff;
+          }
+
+        .card-footer {
+
+            display: flex;
+
+            flex-direction: column;
+
+
+
+        }
+
+        .card-submit input{
+
+            width: 60%;
+
+            height: 40px;
+
+            background-color: #F95738;
+
+            border-radius: 500;
+
+            border-color: black;
+
+            color:#e1e1e1;
+
+            margin: 10px 0;
+
+           font-family: Pixelify Sans;
+
+          font-size: 20px;
+
+        }
+
+
+
+      </style>
+
+    </head>
+
+    <body>
+
+        <div id="cadastro">
+
+            <form class="card">
+
+                <div class="card-header">
+
+                    <h2>Conecte-se agora! Faça seu cadastro</h2>
+
+                </div>
+
+                <div class="card-content">
+
+                    <div class="card-content-user">
+
+                        <label for="usuario">Escolha seu nickname</label>
+
+                        <input type="text" id="usuario" autocomplete="off">
+
+                    </div>
+
+                  <div class="card-content-email">
+
+                      <label for="usuario">Digite seu email</label>
+
+                      <input type="text" id="email" autocomplete="off">
+
+                  </div>
+
+                    <div class="card-content-senha">
+
+                        <label for="password">Defina sua senha</label>
+
+                        <input type="password" id="password" autocomplete="off">
+
+                    </div>
+
+                    <div class="card-content-confirm">
+
+                        <label for="password">Confirme sua senha</label>
+
+                        <input type="password" id="passwordconfirm" autocomplete="off">
+
+                    </div>
+                </div>
+
+                <div class="card-submit">
+                   <label for="submit"></label>
+                    <input type="submit" value="cadastrar-se" class="submit" id="loginButton">
+
+                </div>
+
+            </form>
+
+        </div>
+
+      <script>
+        document.getElementById("loginButton").addEventListener("click", function(event) {
+            event.preventDefault(); 
+            window.location.href = "paginainicial.html";
+        });
+
+        document.getElementById("cadastroLink").addEventListener("click", function(event) {
+            event.preventDefault(); 
+            window.location.href = "cadastro.html";
+        });
+      </script>
+
+    </body>
+
+</html>
